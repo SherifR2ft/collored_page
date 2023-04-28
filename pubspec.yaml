@@ -1,0 +1,73 @@
+name: sherif_raafat
+description: A test application  display the text "Hello there" in the middle of the screen and after tapping anywhere on the screen, a background color should be changed to a randomly generated color. You can also add any other feature to the app - that adds bonus points
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # init
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  shared_preferences: ^2.1.0
+  flutter_spinkit: ^5.1.0
+  # state management
+  provider: ^6.0.5
+  # firebase
+  firebase_core: ^2.10.0
+  firebase_crashlytics: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  solid_lints: ^0.0.14
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 900
+
+    - family: NotoSansArabic
+      fonts:
+        - asset: assets/fonts/neoSans/NotoSansArabic-Light.ttf
+          weight: 300
+        - asset: assets/fonts/neoSans/NotoSansArabic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/neoSans/NotoSansArabic-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/neoSans/NotoSansArabic-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/neoSans/NotoSansArabic-SemiBold.ttf
+          weight: 700
+        - asset: assets/fonts/neoSans/NotoSansArabic-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/neoSans/NotoSansArabic-ExtraBold.ttf
+          weight: 900
+
+  assets:
+    - assets/images/
