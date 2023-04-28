@@ -1,16 +1,21 @@
-# sherif_raafat
+# Randomly Colored Background
+Description: This project is a mobile application that changes the background color to a randomly generated color when the user taps anywhere on the screen or rotates the device screen.
 
-A new Flutter project.
+## Features
 
-## Getting Started
+I have added some features to enhance the user experience, including:
 
-This project is a starting point for a Flutter application.
+- Using Provider as state management.
+- Unit testing.
+- Utilizing a Feature-first as project structure https://codewithandrea.com/articles/flutter-project-structure/ .
+- Implementing solid_lints, Firebase Crashlytics, and shared preferences.
+- Generating the app icon using AI and adding a splash screen.
+- Adding an animation when the text appears for the first time and changing the gradient text colors to match the background random color.
 
-A few resources to get you started if this is your first Flutter project:
+## Supported Devices and Languages
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The application is supported on both Android and iOS devices and includes localization for English and Arabic languages.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contact Information
+
+If you have any questions or would like to contact me, please feel free to email me at sherifr2ft@gmail.com.
